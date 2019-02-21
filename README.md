@@ -5,6 +5,7 @@
 MedicineFinder is a search tool to find medicines which have been bought already and are on they way to be delivered.
 It aggregates medicine results initially from 2 different suppliers (BestSupplier and WorseSupplier).
 Extra implementations would be a plus.
+A simple frontend consuming this JSON would be a extra plus.
 
 **Test duration:**
 
