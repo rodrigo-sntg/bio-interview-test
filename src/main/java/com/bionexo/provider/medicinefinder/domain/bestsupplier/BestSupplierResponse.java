@@ -2,67 +2,67 @@ package com.bionexo.provider.medicinefinder.domain.bestsupplier;
 
 public class BestSupplierResponse {
 
-    private String airline;
+    private String medicineName;
     private double price;
-    private String cabinclass;
-    private String departureAirportCode;
-    private String destinationAirportCode;
+    private String medicineType;
+    private String departureCountryCode;
+    private String destinationCountryCode;
     private String departureDate;
-    private String arrivalDate;
+    private String estimatedArrival;
 
-    public String getAirline() {
-        return airline;
+    public String getMedicineName() {
+        return medicineName;
     }
 
-    public void setAirline(final String airline) {
-        this.airline = airline;
+    public void setMedicineName(String medicineName) {
+        this.medicineName = medicineName;
     }
 
     public double getPrice() {
         return price;
     }
 
-    public void setPrice(final double price) {
+    public void setPrice(double price) {
         this.price = price;
     }
 
-    public String getCabinclass() {
-        return cabinclass;
+    public String getMedicineType() {
+        return medicineType;
     }
 
-    public void setCabinclass(final String cabinclass) {
-        this.cabinclass = cabinclass;
+    public void setMedicineType(String medicineType) {
+        this.medicineType = medicineType;
     }
 
-    public String getDepartureAirportCode() {
-        return departureAirportCode;
+    public String getDepartureCountryCode() {
+        return departureCountryCode;
     }
 
-    public void setDepartureAirportCode(final String departureAirportCode) {
-        this.departureAirportCode = departureAirportCode;
+    public void setDepartureCountryCode(String departureCountryCode) {
+        this.departureCountryCode = departureCountryCode;
     }
 
-    public String getDestinationAirportCode() {
-        return destinationAirportCode;
+    public String getDestinationCountryCode() {
+        return destinationCountryCode;
     }
 
-    public void setDestinationAirportCode(final String destinationAirportCode) {
-        this.destinationAirportCode = destinationAirportCode;
+    public void setDestinationCountryCode(String destinationCountryCode) {
+        this.destinationCountryCode = destinationCountryCode;
     }
 
     public String getDepartureDate() {
         return departureDate;
     }
 
-    public void setDepartureDate(final String departureDate) {
+    public void setDepartureDate(String departureDate) {
         this.departureDate = departureDate;
     }
 
-    public String getArrivalDate() {
-        return arrivalDate;
+    public String getEstimatedArrival() {
+        return estimatedArrival;
     }
 
-    public void setArrivalDate(final String arrivalDate) {
-        this.arrivalDate = arrivalDate;
+    public void setEstimatedArrival(String estimatedArrival) {
+        this.estimatedArrival = estimatedArrival;
     }
 }

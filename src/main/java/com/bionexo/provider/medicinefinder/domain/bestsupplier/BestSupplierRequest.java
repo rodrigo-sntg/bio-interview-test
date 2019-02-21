@@ -6,7 +6,7 @@ public class BestSupplierRequest {
     private String destination;
     private String departureDate;
     private String estimatedArrival;
-    private int quantity;
+    private int quantityCount;
 
     public String getOrigin() {
         return origin;
@@ -40,11 +40,11 @@ public class BestSupplierRequest {
         this.estimatedArrival = estimatedArrival;
     }
 
-    public int getQuantity() {
-        return quantity;
+    public int getQuantityCount() {
+        return quantityCount;
     }
 
-    public void setQuantity(int quantity) {
-        this.quantity = quantity;
+    public void setQuantityCount(int quantityCount) {
+        this.quantityCount = quantityCount;
     }
 }

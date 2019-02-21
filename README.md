@@ -2,17 +2,17 @@
 
 **Brief Explanation:**
 
-MedicineFinder is search tool to find medicines which have been bought already and are on they way to be delivered.
+MedicineFinder is a search tool to find medicines which have been bought already and are on they way to be delivered.
 It aggregates medicine results initially from 2 different suppliers (BestSupplier and WorseSupplier).
 
 **Test duration:**
 
-Try to not spent more than a day to complete this test. You can submit an incomplete solution, but you must explain what are the next steps missing briefly. 
+Try to not spend more than a day to complete this test. You can submit an incomplete solution, but you must explain what are the next steps missing briefly. 
 
 **What is needed:**
 
 Use this GitHub repository as a base to implement your solution to the test.
-The result should be a JSON response which aggregate a list of medicines ordered by price which is composed by the attributes:
+The result should be a JSON response which aggregates a list of medicines ordered by price which is composed of the attributes:
 
 **Medicine Finder API**
 
@@ -20,7 +20,6 @@ The result should be a JSON response which aggregate a list of medicines ordered
 
 | Name | Description |
 | ------ | ------ |
-| code | medicine code |
 | origin | 3 first letters of a country(eg. BRA, ARG, VEN) |
 | destination | 3 first letters of a country(eg. BRA, ARG, VEN) |
 | departureDate | ISO_LOCAL_DATE format |
@@ -39,7 +38,7 @@ The result should be a JSON response which aggregate a list of medicines ordered
 | departureDate | ISO_DATE_TIME format |
 | estimatedArrival | ISO_DATE_TIME format |
 
-The service should connect to the both the suppliers using HTTP.
+The service should connect to both suppliers using HTTP.
 
 **BestSupplier API**
 
@@ -76,7 +75,7 @@ The service should connect to the both the suppliers using HTTP.
 | arriveTo | 3 first letters of a country(eg. BRA, ARG, VEN) |
 | outboundDate |ISO_LOCAL_DATE format |
 | inboundDate | ISO_LOCAL_DATE format |
-| numberOfAdults | Number of passengers |
+| numberOfMedicines | Number of medicines |
 
 **Response**
 
@@ -91,10 +90,10 @@ The service should connect to the both the suppliers using HTTP.
 | outboundDateTime | ISO_INSTANT format |
 | inboundDateTime | ISO_INSTANT format |
 
-**What you need to be done:**
+**What has to be done:**
 
 - A solution that meets the above requirements.
 - The APIs implementation should be the closest to a production environment, and in the way you think it would be better implemented 
-(As said before, if there is missing something there is no problem).
+(As said before, if there is missing something, there is no problem).
 
 You can change any part of the code. In this case, add a comment saying why and what has been changed.

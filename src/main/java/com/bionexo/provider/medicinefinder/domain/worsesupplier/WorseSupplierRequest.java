@@ -2,33 +2,33 @@ package com.bionexo.provider.medicinefinder.domain.worsesupplier;
 
 public class WorseSupplierRequest {
 
-    private String from;
-    private String to;
+    private String departFrom;
+    private String arriveTo;
     private String outboundDate;
     private String inboundDate;
-    private int numberOfAdults;
+    private int numberOfMedicines;
 
-    public String getFrom() {
-        return from;
+    public String getDepartFrom() {
+        return departFrom;
     }
 
-    public void setFrom(final String from) {
-        this.from = from;
+    public void setDepartFrom(String departFrom) {
+        this.departFrom = departFrom;
     }
 
-    public String getTo() {
-        return to;
+    public String getArriveTo() {
+        return arriveTo;
     }
 
-    public void setTo(final String to) {
-        this.to = to;
+    public void setArriveTo(String arriveTo) {
+        this.arriveTo = arriveTo;
     }
 
     public String getOutboundDate() {
         return outboundDate;
     }
 
-    public void setOutboundDate(final String outboundDate) {
+    public void setOutboundDate(String outboundDate) {
         this.outboundDate = outboundDate;
     }
 
@@ -36,15 +36,15 @@ public class WorseSupplierRequest {
         return inboundDate;
     }
 
-    public void setInboundDate(final String inboundDate) {
+    public void setInboundDate(String inboundDate) {
         this.inboundDate = inboundDate;
     }
 
-    public int getNumberOfAdults() {
-        return numberOfAdults;
+    public int getNumberOfMedicines() {
+        return numberOfMedicines;
     }
 
-    public void setNumberOfAdults(final int numberOfAdults) {
-        this.numberOfAdults = numberOfAdults;
+    public void setNumberOfMedicines(int numberOfMedicines) {
+        this.numberOfMedicines = numberOfMedicines;
     }
 }

@@ -2,36 +2,36 @@ package com.bionexo.provider.medicinefinder.domain.worsesupplier;
 
 public class WorseSupplierResponse {
 
-    private String carrier;
-    private double basePrice;
+    private String medicine;
+    private double totalBasePrice;
     private double tax;
     private double discount;
-    private String departureAirportName;
-    private String arrivalAirportName;
+    private String departureCountryName;
+    private String arrivalCountryName;
     private String outboundDateTime;
     private String inboundDateTime;
 
-    public String getCarrier() {
-        return carrier;
+    public String getMedicine() {
+        return medicine;
     }
 
-    public void setCarrier(final String carrier) {
-        this.carrier = carrier;
+    public void setMedicine(String medicine) {
+        this.medicine = medicine;
     }
 
-    public double getBasePrice() {
-        return basePrice;
+    public double getTotalBasePrice() {
+        return totalBasePrice;
     }
 
-    public void setBasePrice(final double basePrice) {
-        this.basePrice = basePrice;
+    public void setTotalBasePrice(double totalBasePrice) {
+        this.totalBasePrice = totalBasePrice;
     }
 
     public double getTax() {
         return tax;
     }
 
-    public void setTax(final double tax) {
+    public void setTax(double tax) {
         this.tax = tax;
     }
 
@@ -39,31 +39,31 @@ public class WorseSupplierResponse {
         return discount;
     }
 
-    public void setDiscount(final double discount) {
+    public void setDiscount(double discount) {
         this.discount = discount;
     }
 
-    public String getDepartureAirportName() {
-        return departureAirportName;
+    public String getDepartureCountryName() {
+        return departureCountryName;
     }
 
-    public void setDepartureAirportName(final String departureAirportName) {
-        this.departureAirportName = departureAirportName;
+    public void setDepartureCountryName(String departureCountryName) {
+        this.departureCountryName = departureCountryName;
     }
 
-    public String getArrivalAirportName() {
-        return arrivalAirportName;
+    public String getArrivalCountryName() {
+        return arrivalCountryName;
     }
 
-    public void setArrivalAirportName(final String arrivalAirportName) {
-        this.arrivalAirportName = arrivalAirportName;
+    public void setArrivalCountryName(String arrivalCountryName) {
+        this.arrivalCountryName = arrivalCountryName;
     }
 
     public String getOutboundDateTime() {
         return outboundDateTime;
     }
 
-    public void setOutboundDateTime(final String outboundDateTime) {
+    public void setOutboundDateTime(String outboundDateTime) {
         this.outboundDateTime = outboundDateTime;
     }
 
@@ -71,7 +71,7 @@ public class WorseSupplierResponse {
         return inboundDateTime;
     }
 
-    public void setInboundDateTime(final String inboundDateTime) {
+    public void setInboundDateTime(String inboundDateTime) {
         this.inboundDateTime = inboundDateTime;
     }
 }

@@ -5,14 +5,14 @@ public class MedicineFinderRequest {
     private String origin;
     private String destination;
     private String departureDate;
-    private String returnDate;
-    private int numberOfPassengers;
+    private String estimatedArrival;
+    private int numberOfMedicine;
 
     public String getOrigin() {
         return origin;
     }
 
-    public void setOrigin(final String origin) {
+    public void setOrigin(String origin) {
         this.origin = origin;
     }
 
@@ -20,7 +20,7 @@ public class MedicineFinderRequest {
         return destination;
     }
 
-    public void setDestination(final String destination) {
+    public void setDestination(String destination) {
         this.destination = destination;
     }
 
@@ -28,23 +28,23 @@ public class MedicineFinderRequest {
         return departureDate;
     }
 
-    public void setDepartureDate(final String departureDate) {
+    public void setDepartureDate(String departureDate) {
         this.departureDate = departureDate;
     }
 
-    public String getReturnDate() {
-        return returnDate;
+    public String getEstimatedArrival() {
+        return estimatedArrival;
     }
 
-    public void setReturnDate(final String returnDate) {
-        this.returnDate = returnDate;
+    public void setEstimatedArrival(String estimatedArrival) {
+        this.estimatedArrival = estimatedArrival;
     }
 
-    public int getNumberOfPassengers() {
-        return numberOfPassengers;
+    public int getNumberOfMedicine() {
+        return numberOfMedicine;
     }
 
-    public void setNumberOfPassengers(final int numberOfPassengers) {
-        this.numberOfPassengers = numberOfPassengers;
+    public void setNumberOfMedicine(int numberOfMedicine) {
+        this.numberOfMedicine = numberOfMedicine;
     }
 }
