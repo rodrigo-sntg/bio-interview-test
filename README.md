@@ -4,6 +4,7 @@
 
 MedicineFinder is a search tool to find medicines which have been bought already and are on they way to be delivered.
 It aggregates medicine results initially from 2 different suppliers (BestSupplier and WorseSupplier).
+Extra implementations would be a plus.
 
 **Test duration:**
 
@@ -95,8 +96,8 @@ The service should connect to both suppliers using HTTP.
 - A solution that meets the above requirements.
 - The APIs implementation should be the closest to a production environment, and in the way you think it would be better implemented 
 (As said before, if there is missing something, there is no problem).
-- You can use whatever you want (frameworks, etc). The mainly goal of this test is to check
-how you would combine two different results into one and how it will be properly displayed.
+- You can use whatever you want (frameworks, etc). The mainly goal of this test is to check how you would combine two different results into one and how it will be properly displayed.
+- At least two basic tests should be implemented.
 
 You can change any part of the code. In this case, add a comment saying why and what has been changed.
 
