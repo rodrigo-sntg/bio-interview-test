@@ -2,7 +2,7 @@
 
 **Brief Explanation:**
 
-MedicineFinder is search tool to find medicines which have been bought already and are on they way to be delivered.
+MedicineFinder is search tool to find medicines which have been bought already and are on their way to be delivered.
 It aggregates medicine results initially from 2 different suppliers (BestSupplier and WorseSupplier).
 
 **Test duration:**
