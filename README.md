@@ -1,4 +1,4 @@
-**Bionexo - Interview Test**
+**Interview Test**
 
 **Brief Explanation:**
 
@@ -9,7 +9,7 @@ A simple frontend consuming this JSON would be an extra plus.
 
 **Test duration:**
 
-Try to not spend more than a day to complete this test. You can submit an incomplete solution, but you must explain what are the next steps missing briefly. 
+Try to not spend more than three days to complete this test. You can submit an incomplete solution, but you must explain what are the next steps missing briefly. 
 
 **What is needed:**
 
@@ -99,6 +99,13 @@ The service should connect to both suppliers using HTTP.
 (As said before, if there is missing something, there is no problem).
 - You can use whatever you want (frameworks, etc). The mainly goal of this test is to check how you would combine two different results into one and how it will be properly displayed.
 - At least two basic tests should be implemented.
+
+**Extra Plus**
+
+- Docker, Pipeline file (Jenkins, Circle CI, Others)
+
+**PLEASE, READ THE REQUIREMENTS CAREFULY.**
+
 
 You can change any part of the code. In this case, add a comment saying why and what has been changed.
 
