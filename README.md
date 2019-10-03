@@ -15,8 +15,6 @@ Try to not spend more than three days to complete this test. You can submit an i
 
 Use this GitHub repository as a base to implement your solution to the test.
 
-**Please, clone this repository and provide your on repository with the solution to the interviewer.**
-
 The result should be a JSON response which aggregates a list of medicines ordered by price which is composed of the attributes:
 
 **Medicine Finder API**
@@ -102,6 +100,7 @@ The service should connect to both suppliers using HTTP.
 (As said before, if there is missing something, there is no problem).
 - You can use whatever you want (frameworks, etc). The mainly goal of this test is to check how you would combine two different results into one and how it will be properly displayed.
 - At least two basic tests should be implemented.
+**Please, clone this repository and provide your on repository with the solution to the interviewer.**
 
 **Extra Plus**
 
