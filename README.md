@@ -14,6 +14,9 @@ Try to not spend more than three days to complete this test. You can submit an i
 **What is needed:**
 
 Use this GitHub repository as a base to implement your solution to the test.
+
+**Please, clone this repository and provide your on repository with the solution to the interviewer.**
+
 The result should be a JSON response which aggregates a list of medicines ordered by price which is composed of the attributes:
 
 **Medicine Finder API**
