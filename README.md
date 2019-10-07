@@ -1,115 +1,17 @@
-**Interview Test**
+**Test Explanation:**
 
-**Brief Explanation:**
+On My approach I have just created some simple REST api, exposing the endpoints for WorseSupplier,
+BestSupplier, MedicineFinder and Country, so anywhere we can use the CRUD operations for the
+Suppliers and get the merge of the suppliers with the MedicineFinder and get the list of Countries and it's alpha3code.
 
-MedicineFinder is a search tool to find medicines which have been bought already and are on their way to be delivered.
-It aggregates medicine results initially from 2 different suppliers (BestSupplier and WorseSupplier).
-Extra implementations would be a plus.
-A simple frontend consuming this JSON would be an extra plus.
+If I have time enough I would like to implement the Spring Security and some validations,
+but I put some personal goal of doing this test in 8 hours of coding, after this, no
+more coding, I have passed my own schedule in 1 hour though.
+All the test took me 9 hours of coding + planning how to solve the problem.
 
-**Test duration:**
+The backend took me something like 8 hours, plus 1 hour with the Angular project to list the
+results of MedicineFinder.
 
-Try to not spend more than three days to complete this test. You can submit an incomplete solution, but you must explain what are the next steps missing briefly. 
+To run the web view, please see the https://github.com/rodrigo-sntg/bio-web and follow the instructions.
 
-**What is needed:**
-
-Use this GitHub repository as a base to implement your solution to the test.
-
-The result should be a JSON response which aggregates a list of medicines ordered by price which is composed of the attributes:
-
-**Medicine Finder API**
-
-**Request**
-
-| Name | Description |
-| ------ | ------ |
-| origin | 3 first letters of a country(eg. BRA, ARG, VEN) |
-| destination | 3 first letters of a country(eg. BRA, ARG, VEN) |
-| departureDate | ISO_LOCAL_DATE format |
-| estimatedArrival | ISO_LOCAL_DATE format |
-| numberOfMedicine | Maximum 10 |
-
-**Response**
-
-| Name | Description |
-| ------ | ------ |
-| medicineName | Name of the medicine |
-| supplier | Eg: BestSupplier or WorseSupplier |
-| totalPrice | Total price rounded to 2 decimals |
-| departureCountry | 3 first letters of a country(eg. BRA, ARG, VEN) |
-| destinationCountry | 3 first letters of a country(eg. BRA, ARG, VEN) |
-| departureDate | ISO_DATE_TIME format |
-| estimatedArrival | ISO_DATE_TIME format |
-
-The service should connect to both suppliers using HTTP.
-
-**BestSupplier API**
-
-**Request**
-
-| Name | Description |
-| ------ | ------ |
-| origin | 3 first letters of a country(eg. BRA, ARG, VEN) |
-| destination | 3 first letters of a country(eg. BRA, ARG, VEN) |
-| departureDate | ISO_LOCAL_DATE format |
-| estimatedArrival | ISO_LOCAL_DATE format |
-| quantityCount| Number of medicines |
-
-**Response**
-
-
-| Name | Description |
-| ------ | ------ |
-| medicineName | Name of the medicine |
-| price | Total price |
-| medicineType | P for pill and L for liquid |
-| departureCountryCode | Eg: BRA |
-| destinationCountryCode | Eg: ARG |
-| departureDate | ISO_LOCAL_DATE_TIME format |
-| estimatedArrival | ISO_LOCAL_DATE_TIME format |
-
-**WorstSupplier API**
-
-**Request**
-
-| Name | Description |
-| ------ | ------ |
-| departFrom | 3 first letters of a country(eg. BRA, ARG, VEN) |
-| arriveTo | 3 first letters of a country(eg. BRA, ARG, VEN) |
-| outboundDate |ISO_LOCAL_DATE format |
-| inboundDate | ISO_LOCAL_DATE format |
-| numberOfMedicines | Number of medicines |
-
-**Response**
-
-| Name | Description |
-| ------ | ------ |
-| medicine | Name of the medicine |
-| totalBasePrice | Price without tax(doesn't include discount) |
-| tax | Tax which needs to be added to the price |
-| discount | Discount which needs to be subtracted from the price(in percentage) |
-| departureCountryName | 3 first letters of a country(eg. BRA, ARG, VEN) |
-| arrivalCountryName | 3 first letters of a country(eg. BRA, ARG, VEN) |
-| outboundDateTime | ISO_INSTANT format |
-| inboundDateTime | ISO_INSTANT format |
-
-**What has to be done:**
-
-- A solution that meets the above requirements.
-- The APIs implementation should be the closest to a production environment, and in the way you think it would be better implemented 
-(As said before, if there is missing something, there is no problem).
-- You can use whatever you want (frameworks, etc). The mainly goal of this test is to check how you would combine two different results into one and how it will be properly displayed.
-- At least two basic tests should be implemented.
-
-**Please, clone this repository and provide your on repository with the solution to the interviewer.**
-
-**Extra Plus**
-
-- Docker, Pipeline file (Jenkins, Circle CI, Others)
-- Use AWS Lambda or Serverless Framework
-
-**PLEASE, READ THE REQUIREMENTS CAREFULY.**
-
-
-You can change any part of the code. In this case, add a comment saying why and what has been changed.
-
+To access swagger API documentation, access http://localhost:8080/swagger-ui.html#/ with the code running.
