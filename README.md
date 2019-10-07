@@ -14,8 +14,8 @@ results of MedicineFinder.
 
 To run the web view, please see the https://github.com/rodrigo-sntg/bio-web and follow the instructions.
 
-To access swagger API documentation, access http://bioapi-env.pv4nq3qaht.us-east-2.elasticbeanstalk.com/swagger-ui.html#/;
+To access swagger API documentation, access http://52.14.108.147:8080/swagger-ui.html#/;
 
-To access the rest API for medicine finder, access http://bioapi-env.pv4nq3qaht.us-east-2.elasticbeanstalk.com/api/v1/medicine/;
+To access the rest API for medicine finder, access http://52.14.108.147:8080/api/v1/medicine/;
 
 To access the bio-web in Angular on an Amazon EC2 instance, visit http://52.14.108.147;
