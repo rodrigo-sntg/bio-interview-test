@@ -1,5 +1,6 @@
 package com.bionexo.provider.medicinefinder.domain.medicinefinder;
 
+
 public class MedicineFinderRequest {
 
     private String origin;
@@ -7,6 +8,7 @@ public class MedicineFinderRequest {
     private String departureDate;
     private String estimatedArrival;
     private int numberOfMedicine;
+    private String supplier;
 
     public String getOrigin() {
         return origin;
@@ -47,4 +49,12 @@ public class MedicineFinderRequest {
     public void setNumberOfMedicine(int numberOfMedicine) {
         this.numberOfMedicine = numberOfMedicine;
     }
+
+	public String getSupplier() {
+		return supplier;
+	}
+
+	public void setSupplier(String supplier) {
+		this.supplier = supplier;
+	}
 }

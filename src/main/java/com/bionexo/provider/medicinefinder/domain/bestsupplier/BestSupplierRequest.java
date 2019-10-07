@@ -1,7 +1,6 @@
 package com.bionexo.provider.medicinefinder.domain.bestsupplier;
 
 public class BestSupplierRequest {
-
     private String origin;
     private String destination;
     private String departureDate;
@@ -47,4 +46,5 @@ public class BestSupplierRequest {
     public void setQuantityCount(int quantityCount) {
         this.quantityCount = quantityCount;
     }
+
 }
