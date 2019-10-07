@@ -95,36 +95,5 @@ public class MedicineFinderApplicationTests {
 	}
 	
 
-	@Test
-	public void createStudentCourse() throws Exception {
-		BestSupplier mockBestSupplier = new BestSupplier();
-		mockBestSupplier.setMedicineName("JUnit");
-		
-		ObjectMapper Obj = new ObjectMapper();
-		String jsonStr = Obj.writeValueAsString(mockBestSupplier);
-
-		// Send course as body to /students/Student1/courses
-		RequestBuilder requestBuilder = MockMvcRequestBuilders
-				.post("/api/v1/best/")
-				.accept(MediaType.APPLICATION_JSON).content(jsonStr)
-				.contentType(MediaType.APPLICATION_JSON);
-
-		MvcResult result = mockMvc.perform(requestBuilder).andReturn();
-
-		MockHttpServletResponse response = result.getResponse();
-		
-		RequestBuilder requestBuilderInsert = MockMvcRequestBuilders.get(
-				"/api/v1/best/name/" + mockBestSupplier.getMedicineName()).accept(
-						MediaType.APPLICATION_JSON);
-
-		MvcResult resultInsert = mockMvc.perform(requestBuilderInsert ).andReturn();
-
-		assertEquals(HttpStatus.CREATED.value(), response.getStatus());
-		
-		assertNotNull(resultInsert.getResponse().getContentAsString());
-
-	}
-
-	
 
 }

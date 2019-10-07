@@ -1,28 +1,29 @@
-/home/murah/Documentos/bio/Pasta sem título/bio-interview-test/src/main/java/com/bionexo/provider/medicinefinder/country/Country.java
-/home/murah/Documentos/bio/Pasta sem título/bio-interview-test/src/main/java/com/bionexo/provider/medicinefinder/domain/bestsupplier/BestSupplierResponse.java
-/home/murah/Documentos/bio/Pasta sem título/bio-interview-test/src/main/java/com/bionexo/provider/medicinefinder/Config.java
-/home/murah/Documentos/bio/Pasta sem título/bio-interview-test/src/main/java/com/bionexo/provider/medicinefinder/errors/ApiError.java
-/home/murah/Documentos/bio/Pasta sem título/bio-interview-test/src/main/java/com/bionexo/provider/medicinefinder/errors/EntityNotFoundException.java
-/home/murah/Documentos/bio/Pasta sem título/bio-interview-test/src/main/java/com/bionexo/provider/medicinefinder/domain/medicinefinder/MedicineFinderRequest.java
-/home/murah/Documentos/bio/Pasta sem título/bio-interview-test/src/main/java/com/bionexo/provider/medicinefinder/repository/WorseSupplierRepository.java
-/home/murah/Documentos/bio/Pasta sem título/bio-interview-test/src/main/java/com/bionexo/provider/medicinefinder/domain/medicinefinder/MedicineFinderUtils.java
-/home/murah/Documentos/bio/Pasta sem título/bio-interview-test/src/main/java/com/bionexo/provider/medicinefinder/utils/StringUtils.java
-/home/murah/Documentos/bio/Pasta sem título/bio-interview-test/src/main/java/com/bionexo/provider/medicinefinder/controllers/BestSupplierApiController.java
-/home/murah/Documentos/bio/Pasta sem título/bio-interview-test/src/main/java/com/bionexo/provider/medicinefinder/domain/medicinefinder/MedicineFinderResponse.java
-/home/murah/Documentos/bio/Pasta sem título/bio-interview-test/src/main/java/com/bionexo/provider/medicinefinder/domain/worsesupplier/WorseSupplierRequest.java
-/home/murah/Documentos/bio/Pasta sem título/bio-interview-test/src/main/java/com/bionexo/provider/medicinefinder/controllers/CountriesApiController.java
-/home/murah/Documentos/bio/Pasta sem título/bio-interview-test/src/main/java/com/bionexo/provider/medicinefinder/errors/ApiSubError.java
-/home/murah/Documentos/bio/Pasta sem título/bio-interview-test/src/main/java/com/bionexo/provider/medicinefinder/repository/BestSupplierRepository.java
-/home/murah/Documentos/bio/Pasta sem título/bio-interview-test/src/main/java/com/bionexo/provider/medicinefinder/MedicineFinderApplication.java
-/home/murah/Documentos/bio/Pasta sem título/bio-interview-test/src/main/java/com/bionexo/provider/medicinefinder/domain/base/BestSupplier.java
-/home/murah/Documentos/bio/Pasta sem título/bio-interview-test/src/main/java/com/bionexo/provider/medicinefinder/errors/LowerCaseClassNameResolver.java
-/home/murah/Documentos/bio/Pasta sem título/bio-interview-test/src/main/java/com/bionexo/provider/medicinefinder/domain/worsesupplier/WorseSupplierUtils.java
-/home/murah/Documentos/bio/Pasta sem título/bio-interview-test/src/main/java/com/bionexo/provider/medicinefinder/domain/bestsupplier/BestSupplierUtils.java
-/home/murah/Documentos/bio/Pasta sem título/bio-interview-test/src/main/java/com/bionexo/provider/medicinefinder/domain/base/WorseSupplier.java
-/home/murah/Documentos/bio/Pasta sem título/bio-interview-test/src/main/java/com/bionexo/provider/medicinefinder/errors/ApiValidationError.java
-/home/murah/Documentos/bio/Pasta sem título/bio-interview-test/src/main/java/com/bionexo/provider/medicinefinder/controllers/WorseSupplierApiController.java
-/home/murah/Documentos/bio/Pasta sem título/bio-interview-test/src/main/java/com/bionexo/provider/medicinefinder/errors/RestExceptionHandler.java
-/home/murah/Documentos/bio/Pasta sem título/bio-interview-test/src/main/java/com/bionexo/provider/medicinefinder/domain/bestsupplier/BestSupplierUpdater.java
-/home/murah/Documentos/bio/Pasta sem título/bio-interview-test/src/main/java/com/bionexo/provider/medicinefinder/controllers/MedicineFinderApiController.java
-/home/murah/Documentos/bio/Pasta sem título/bio-interview-test/src/main/java/com/bionexo/provider/medicinefinder/domain/bestsupplier/BestSupplierRequest.java
-/home/murah/Documentos/bio/Pasta sem título/bio-interview-test/src/main/java/com/bionexo/provider/medicinefinder/domain/worsesupplier/WorseSupplierResponse.java
+/home/murah/Documentos/bio/bio-interview-test/src/main/java/com/bionexo/provider/medicinefinder/controllers/MedicineFinderApiController.java
+/home/murah/Documentos/bio/bio-interview-test/src/main/java/com/bionexo/provider/medicinefinder/errors/ApiSubError.java
+/home/murah/Documentos/bio/bio-interview-test/src/main/java/com/bionexo/provider/medicinefinder/errors/RestExceptionHandler.java
+/home/murah/Documentos/bio/bio-interview-test/src/main/java/com/bionexo/provider/medicinefinder/errors/EntityNotFoundException.java
+/home/murah/Documentos/bio/bio-interview-test/src/main/java/com/bionexo/provider/medicinefinder/domain/worsesupplier/WorseSupplierResponse.java
+/home/murah/Documentos/bio/bio-interview-test/src/main/java/com/bionexo/provider/medicinefinder/domain/worsesupplier/WorseSupplierUtils.java
+/home/murah/Documentos/bio/bio-interview-test/src/main/java/com/bionexo/provider/medicinefinder/domain/medicinefinder/MedicineFinderUtils.java
+/home/murah/Documentos/bio/bio-interview-test/src/main/java/com/bionexo/provider/medicinefinder/domain/base/BestSupplier.java
+/home/murah/Documentos/bio/bio-interview-test/src/main/java/com/bionexo/provider/medicinefinder/repository/WorseSupplierRepository.java
+/home/murah/Documentos/bio/bio-interview-test/src/main/java/com/bionexo/provider/medicinefinder/controllers/BestSupplierApiController.java
+/home/murah/Documentos/bio/bio-interview-test/src/main/java/com/bionexo/provider/medicinefinder/domain/bestsupplier/BestSupplierUpdater.java
+/home/murah/Documentos/bio/bio-interview-test/src/main/java/com/bionexo/provider/medicinefinder/domain/worsesupplier/WorseSupplierRequest.java
+/home/murah/Documentos/bio/bio-interview-test/src/main/java/com/bionexo/provider/medicinefinder/domain/base/WorseSupplier.java
+/home/murah/Documentos/bio/bio-interview-test/src/main/java/com/bionexo/provider/medicinefinder/domain/medicinefinder/MedicineFinderRequest.java
+/home/murah/Documentos/bio/bio-interview-test/src/main/java/com/bionexo/provider/medicinefinder/controllers/WorseSupplierApiController.java
+/home/murah/Documentos/bio/bio-interview-test/src/main/java/com/bionexo/provider/medicinefinder/country/Country.java
+/home/murah/Documentos/bio/bio-interview-test/src/main/java/com/bionexo/provider/medicinefinder/domain/bestsupplier/BestSupplierRequest.java
+/home/murah/Documentos/bio/bio-interview-test/src/main/java/com/bionexo/provider/medicinefinder/errors/ApiValidationError.java
+/home/murah/Documentos/bio/bio-interview-test/src/main/java/com/bionexo/provider/medicinefinder/errors/LowerCaseClassNameResolver.java
+/home/murah/Documentos/bio/bio-interview-test/src/main/java/com/bionexo/provider/medicinefinder/domain/medicinefinder/MedicineFinderResponse.java
+/home/murah/Documentos/bio/bio-interview-test/src/main/java/com/bionexo/provider/medicinefinder/Config.java
+/home/murah/Documentos/bio/bio-interview-test/src/main/java/com/bionexo/provider/medicinefinder/domain/bestsupplier/BestSupplierUtils.java
+/home/murah/Documentos/bio/bio-interview-test/src/main/java/com/bionexo/provider/medicinefinder/MedicineFinderApplication.java
+/home/murah/Documentos/bio/bio-interview-test/src/main/java/com/bionexo/provider/medicinefinder/utils/StringUtils.java
+/home/murah/Documentos/bio/bio-interview-test/src/main/java/com/bionexo/provider/medicinefinder/SwaggerConfig.java
+/home/murah/Documentos/bio/bio-interview-test/src/main/java/com/bionexo/provider/medicinefinder/controllers/CountriesApiController.java
+/home/murah/Documentos/bio/bio-interview-test/src/main/java/com/bionexo/provider/medicinefinder/errors/ApiError.java
+/home/murah/Documentos/bio/bio-interview-test/src/main/java/com/bionexo/provider/medicinefinder/repository/BestSupplierRepository.java
+/home/murah/Documentos/bio/bio-interview-test/src/main/java/com/bionexo/provider/medicinefinder/domain/bestsupplier/BestSupplierResponse.java
